@@ -228,7 +228,7 @@ below are the authoritative sequence and do not depend on the animation.
 ## 6. Test it
 
 1. Plug one end of a 3.5 mm mono cable into the notch in the side of the Click Me.
-2. Plug the other end into the switch socket of the device you want to operate -
+2. Plug the other end into the switch socket of the device you want to operate:
    a switch-adapted toy, a communication aid, or a switch interface.
 3. Press the keycap. The device should respond for as long as you hold it down,
    and stop when you let go.
