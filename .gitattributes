@@ -1,0 +1,28 @@
+# Fabrication files go to a manufacturer byte for byte. Git must never rewrite
+# their line endings, so they are marked as not-text.
+*.GTL  -text
+*.GBL  -text
+*.GTO  -text
+*.GBO  -text
+*.GTS  -text
+*.GBS  -text
+*.GTP  -text
+*.GKO  -text
+*.GDL  -text
+*.GDD  -text
+*.DRL  -text
+*.tel  -text
+
+# Binary assets.
+*.stl  binary
+*.zip  binary
+*.xlsx binary
+*.jpg  binary
+*.png  binary
+
+# Documentation and data stay text, normalised to LF in the repository.
+*.md   text eol=lf
+*.csv  text eol=lf
+*.yml  text eol=lf
+*.txt  text eol=lf
+*.json text eol=lf

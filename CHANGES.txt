@@ -1,0 +1,46 @@
+Click Me changelog
+==================
+
+v0.5.0 (2026-09-21)
+  First published version. Work in progress.
+
+  Hardware
+    - Circuit board v0.2 (silkscreen dated 2026_07_29), 46 x 46 mm, 2 layers.
+      PJ-320B 3.5 mm mono jack wired tip-and-sleeve through a Cherry MX
+      compatible hot-swap socket. Ring deliberately unconnected.
+    - Boards manufactured and assembled by JLCPCB, July 2026.
+    - Printed housing v0.5: four parts (base, carrier, retainer, housing) plus
+      five interchangeable keycaps. Snap-fit, no fasteners.
+
+  Files
+    - Gerbers re-exported from EasyEDA Pro v3.2.149 on 2026-09-21. Verified to
+      produce the same board as the manufactured set: all drill coordinates and
+      every aperture used for drawing are identical to the as-manufactured files.
+      The only differences are aperture declarations that are never selected.
+    - JLCPCB parts list and placement files list CN1 and U1 only. U2, the
+      mechanical keyboard switch, is a footprint for housing alignment and is
+      supplied by the maker.
+
+  Cost, as built
+    - 25 assembled boards, July 2026: $120.59 delivered, $4.82 per board.
+      These are the boards in the photographs. The batch was kept small
+      deliberately, to test a design correction before ordering more.
+      The earlier revision ran to 50 boards at $118.10, or $2.36 per board.
+    - One finished Click Me: $8.43, made up of board $4.82, cable $3.00,
+      filament $0.42, mechanical keyboard switch $0.19.
+    - Everything was bought in small volumes, so these are ceiling prices.
+      Bulk pricing to be explored once the design is finalised.
+
+  Assembly animation
+    - Photos/assembly-animation.gif shows the parts coming together, rendered
+      from Fusion 360. It plays once and stops rather than looping, so it does
+      not become motion a reader cannot pause.
+    - Full version on YouTube: https://youtu.be/RXbbdtwFPiI
+    - Rendered from housing revision v0.32, not the v0.5 parts shipped here.
+
+  Known limitations
+    - CAD source files for the printed parts are not yet published. They exist
+      in Fusion 360 and will be added after cleanup.
+    - Print settings in ASSEMBLY.md are a suggested starting point, not a
+      verified profile.
+    - No recommended actuation force is stated yet.

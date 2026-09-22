@@ -1,0 +1,14 @@
+Section,Item,Quantity,Reference,Supplier / Part number,Bought as,Cost per unit (USD),Notes
+Assembled by JLCPCB,PJ-320B 3.5 mm mono jack,1,CN1,LCSC C22355831,Included in the board order,,Soldered by JLCPCB. Tip and sleeve wired; ring deliberately unconnected
+Assembled by JLCPCB,CPG151101S11-16 hot-swap socket,1,U1,LCSC C41430893,Included in the board order,,Soldered by JLCPCB. Accepts any Cherry MX compatible keyboard switch
+Assembled by JLCPCB,Assembled printed circuit board,1,,JLCPCB (see Documentation/ORDERING.md),25 boards for $120.59 delivered,4.82,46 x 46 mm 2-layer FR-4 1.6 mm. Per-unit cost falls sharply with batch size
+You supply,Mechanical keyboard switch,1,U2 position,Any Cherry MX compatible switch. I used https://www.amazon.com/dp/B0GC33V4HK,$13.99 for 72,0.19,Not fitted by JLCPCB. Sets the actuation force (see ASSEMBLY.md section 3)
+You supply,3.5 mm mono cable,1,,Any male-to-male 3.5 mm cable. I used https://www.amazon.com/dp/B0DCYYJDBL,Single unit,3.00,Connects the Click Me to the device it operates
+You print,Base,1,Part_0,Build_Files/3D_Printing_Files/STL,,,60.0 x 60.0 x 7.4 mm
+You print,Carrier,1,Part_1,Build_Files/3D_Printing_Files/STL,,,46.3 x 46.3 x 14.0 mm
+You print,Retainer,1,Part_2,Build_Files/3D_Printing_Files/STL,,,50.0 x 50.0 x 9.5 mm
+You print,Housing,1,Part_3,Build_Files/3D_Printing_Files/STL,,,50.0 x 50.0 x 11.0 mm
+You print,Keycap,1,One of Part_4.0 to Part_4.4,Build_Files/3D_Printing_Files/STL,,,42.4 x 42.4 mm. Five alternatives; print one. See ASSEMBLY.md section 4
+You print,PLA filament for all five printed parts,34.03 g,,Bambu Lab PLA Basic or equivalent,$12.47 per 1 kg roll,0.42,Total filament for one complete housing and one keycap
+Not required,Screws,0,,,,,The housing is snap-fit. No screws no inserts no glue
+TOTAL,One finished Click Me,1,,,,8.43,Small-volume pricing (see ORDERING.md section 8). Bulk buying should reduce this

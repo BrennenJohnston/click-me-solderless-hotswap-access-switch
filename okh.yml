@@ -1,0 +1,88 @@
+# Open Know-How (OKH) Manifest for the Click Me access switch
+# Compliant with the Open Know-How Specification (Internet of Production Alliance, 2022)
+# Spec: https://standards.internetofproduction.org/pub/okh
+# Generator reference: https://okh.makernet.org/form
+
+okhv: OKH-LOSHv1.0
+
+name: "Click Me: Solderless Hot-Swap Access Switch"
+repo: https://github.com/BrennenJohnston/click-me-solderless-hotswap-access-switch
+version: 0.5.0
+license:
+  hardware: CERN-OHL-W-2.0
+  documentation: CC-BY-SA-4.0
+  software: GPL-3.0-or-later
+licensor:
+  name: Brennen Johnston
+  contact:
+    name: Brennen Johnston
+documentation-language: en
+function: |
+  A 3D-printed accessibility switch with a 3.5 mm mono plug, the standard connector for
+  switch-adapted toys, communication aids and switch interfaces. A small custom circuit
+  board carries a 3.5 mm jack and a hot-swap socket for an ordinary Cherry MX compatible
+  mechanical keyboard switch. The board is ordered pre-assembled, so the maker solders
+  nothing: they press a keyboard switch into the socket by hand, push on one of five
+  printed keycaps, and snap the printed housing together. Because the keyboard switch
+  is held by friction rather than solder, the actuation force can be tuned to the person
+  using the device (light for limited strength, heavier to avoid accidental activation,
+  clicky for audible confirmation) and changed again later in seconds without tools.
+
+documentation-readiness-level: ODRL-3
+technology-readiness-level: OTRL-4
+
+manufacturing-instructions: ./Documentation/ORDERING.md
+user-manual: ./Documentation/ASSEMBLY.md
+bom: ./Documentation/BOM.csv
+
+design-files:
+  - path: ./Design_Files/PCB_Design_Files/
+    title: Circuit design exports from EasyEDA Pro (Altium, PADS, DISA, schematic PDF, netlist)
+
+making-instructions:
+  - path: ./Documentation/ORDERING.md
+    title: Ordering the circuit board from JLCPCB with assembly
+  - path: ./Documentation/ASSEMBLY.md
+    title: Printing the parts and building the device
+  - path: https://youtu.be/RXbbdtwFPiI
+    title: "Video: the assembly sequence as a Fusion 360 animation (housing v0.32)"
+
+operation-instructions:
+  - path: ./Documentation/ASSEMBLY.md
+    title: Assembly guide, including testing the finished switch
+
+manufacturing-files:
+  - path: ./Build_Files/PCB_Build_Files/Gerber_PCB1_2026-09-21.zip
+    title: Gerber files for PCB fabrication (upload this to JLCPCB)
+  - path: ./Build_Files/PCB_Build_Files/BOM_ClickMe.csv
+    title: Parts list for JLCPCB assembly (CN1 and U1 only)
+  - path: ./Build_Files/PCB_Build_Files/CPL_ClickMe.csv
+    title: Component placement file for JLCPCB assembly
+  - path: ./Build_Files/3D_Printing_Files/STL/
+    title: "3D printing source files (STL): four housing parts and five keycap options"
+
+image: ./Photos/assembly-06-keycap-on-finished.jpg
+
+keywords:
+  - assistive-technology
+  - accessibility-switch
+  - access-switch
+  - switch-access
+  - adapted-toys
+  - aac
+  - hot-swap
+  - solderless
+  - mechanical-keyboard-switch
+  - cherry-mx
+  - 3d-printable
+  - jlcpcb
+  - openat
+
+attestation:
+  - This device has been built and used by the designer; no third-party certification has been performed.
+  - Work in progress. CAD source files for the printed parts are not yet published.
+
+related:
+  - name: OpenAT-Template
+    url: https://github.com/makersmakingchange/OpenAT-Template
+    relation: documentation and repository structure follows this template

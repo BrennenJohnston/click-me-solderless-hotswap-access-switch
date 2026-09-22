@@ -1,0 +1,19 @@
+# Privacy: JLCPCB order material must never be committed.
+# The order download carries the customer account code, order number, amount
+# paid, cloud credentials, and other customers' account codes. None of it is
+# needed to reproduce this board; the Gerbers here are a fresh EasyEDA export.
+JLCPCB*/
+*invoice*
+erp_parameter_file.json
+4te.json
+GBR_*.json
+autocam_checks.json
+*.tgz
+*.ddw
+
+# Build and OS noise.
+Thumbs.db
+desktop.ini
+.DS_Store
+*.tmp
+~$*
