@@ -39,6 +39,12 @@ the person instead of the other way round.
 - **Comes with five keycaps**: different sizes and heights, one with a tactile
   pattern you can find by touch
 
+Three of the five keycaps, each on a finished Click Me: flat and textured at the
+back left, a tall flat-topped mound at the back right, and the one with the
+tactile pattern in front.
+
+<img src="Photos/keycap-options-printed.jpg" width="640" alt="Three finished Click Me switches on a wood table, each with a different keycap. Back left: a flat lime-green keycap with a finely textured top, in a black housing over a grey layer and a light blue base. Back right: a tall lime-green keycap whose sloped sides rise to a raised flat square, in a magenta housing over a grey layer and a light blue base. In front: an all-black Click Me with a tall red keycap shaped like a four-sided pyramid, with a raised, finely ridged X on its peak whose arms point to the corners.">
+
 ## What it costs
 
 About **$8.43 per finished switch** at the moment: $4.82 for the assembled board,

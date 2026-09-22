@@ -151,6 +151,13 @@ Four of the five, as computer renderings.
 
 ![A computer rendering of four keycap options in red: a tall chamfered dome, a tall dome with a faceted star pattern radiating from its centre, a lower rounded dome, and a thin flat slab.](../Photos/render-keycap-options.jpg)
 
+Three of them printed, each on a finished Click Me: the flat `Part_4.0` at the
+back left, the tall flat-topped `Part_4.3` at the back right, and `Part_4.4`, the
+one with the tactile pattern, in front. The housing parts are printed in different
+colours too.
+
+![Three finished Click Me switches on a wood table, each with a different keycap. Back left: a flat lime-green keycap with a finely textured top, in a black housing over a grey layer and a light blue base. Back right: a tall lime-green keycap whose sloped sides rise to a raised flat square, in a magenta housing over a grey layer and a light blue base. In front: an all-black Click Me with a tall red keycap shaped like a four-sided pyramid, with a raised, finely ridged X on its peak whose arms point to the corners.](../Photos/keycap-options-printed.jpg)
+
 | File | Height | Shape | Suits |
 |---|---|---|---|
 | `Part_4.2` | 5.2 mm | Flat, slimmest | The lowest profile, least likely to be knocked |
